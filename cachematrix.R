@@ -32,7 +32,7 @@ cacheSolve <- function(x, ...) {
         }
         
         data <- x$get()
-        inv_data <- solve(data)
+        inv_data <- solve(data, ...)
         x$setinv(inv_data)
         inv_data
 }
