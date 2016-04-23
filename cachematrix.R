@@ -1,4 +1,4 @@
-## two functions:
+## this file includes two functions:
 ## 1.makeCacheMatrix()
 ## 2.cacheSolve()
 
